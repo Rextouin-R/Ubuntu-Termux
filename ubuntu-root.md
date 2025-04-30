@@ -23,7 +23,7 @@ pkg install root-repo
 pkg install proot-distro
 ```
 
-Penginstalan dan lagin Ubuntu: 
+Penginstalan dan login Ubuntu: 
 ```
 proot-distro list
 proot-distro install ubuntu
