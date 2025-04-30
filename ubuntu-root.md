@@ -1,7 +1,7 @@
 ## PROOT-DISTRO (🟠 UBUNTU)
-* [Membuat data username]
-* [Membuat passwd username]
-* [Memberi akses root pada username]
+* [Membuat data user]
+* [Membuat passwd user]
+* [Memberi akses root pada user]
 <br>
 
 ---  
