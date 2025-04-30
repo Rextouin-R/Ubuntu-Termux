@@ -100,9 +100,12 @@ exit
 ```
 exit
 ```
-#### * Perintah untuk login username:
+#### * Perintah untuk login Username dan install package terakhir:
 ```
-root-distro login ubuntu --user (Username kalian)
+proot-distro login ubuntu --user (Username kalian)
+```
+```
+sudo apt install dbus-x11 ubuntu-desktop -y
 ```
 
 ---
