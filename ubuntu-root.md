@@ -46,7 +46,7 @@ apt install adduser
 
 #### * Membuat data User:
 ```
-adduser nama kalian
+adduser (username kalian)
 ```
 Bagian `New password:` isi password kalian
 
@@ -85,7 +85,7 @@ Save mengunakan perintah `CTRL+x+y` (enter)
 
 #### * Login menggunakan user kalian:
 ```
-su - username kalian
+su - (username kalian)
 ```
 ```
 whoami
@@ -93,7 +93,7 @@ whoami
 ```
 sudo whoami
 ```
-Lalu masukan password username kalian, setelah masuk silahkan keluar dari TERMUX
+* Lalu masukan password username kalian, setelah masuk silahkan keluar dari TERMUX
 ```
 exit
 ```
