@@ -93,7 +93,7 @@ whoami
 ```
 sudo whoami
 ```
-* Lalu masukan password username kalian, setelah masuk silahkan keluar dari TERMUX
+* Lalu masukan password kalian, setelah masuk silahkan keluar dari TERMUX
 ```
 exit
 ```
