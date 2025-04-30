@@ -43,7 +43,8 @@ apt install adduser
 <br>
 
 ## Langkah ke dua <a name=easy-download-ubuntu-proot></a> 
-* Membuat data User:
+
+#### * Membuat data User:
 ```
 adduser nama kalian
 ```
@@ -63,12 +64,48 @@ Bagian `Other []` (enter)
 
 Bagian `Is the information correct? [Y/n]` (y) lalu (enter)
 
-* Mengedit bagian data:
+#### * Mengedit bagian data:
 ```
 nano /etc/sudoers
 ```
+Edit dan isi bagian data, contoh seperti di bawah ini
+```
+# User privilege specification
+root    ALL=(ALL:ALL) ALL
+nama kalian ALL=(ALL:ALL) ALL
+# Members of the admin group may gain root privileges
+%admin ALL=(ALL) ALL
+nama kalian ALL=(ALL) ALL
+# Allow members of group sudo to execute any command
+%sudo   ALL=(ALL:ALL) ALL
+nama kalian ALL=(ALL:ALL) ALL
+# See sudoers(5) for more information on "@include" directives:
+```
+Save mengunakan perintah `CTRL+x+y` (enter)
 
----  
+#### * Login menggunakan user kalian:
+```
+su - username kalian
+```
+```
+whoami
+```
+```
+sudo whoami
+```
+Lalu masukan password username kalian, setelah masuk silahkan dari TERMUX
+```
+exit
+```
+```
+exit
+```
+#### * Perintah untuk login username:
+```
+root-distro login ubuntu --user (Username kalian)
+```
+
+---
 <br>
 
 # ⚙️ Installing Desktops <a name=installing-desktops-ubuntu-proot></a> 
