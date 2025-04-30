@@ -64,7 +64,7 @@ Bagian `Other []` (enter)
 
 Bagian `Is the information correct? [Y/n]` (y) lalu (enter)
 
-#### * Mengedit bagian data:
+## Langkah ke tiga mengedit bagian data:
 ```
 nano /etc/sudoers
 ```
