@@ -72,13 +72,13 @@ Edit dan isi bagian data, contoh seperti di bawah ini
 ```
 # User privilege specification
 root    ALL=(ALL:ALL) ALL
-nama kalian ALL=(ALL:ALL) ALL
+Username kalian ALL=(ALL:ALL) ALL
 # Members of the admin group may gain root privileges
 %admin ALL=(ALL) ALL
-nama kalian ALL=(ALL) ALL
+Username kalian ALL=(ALL) ALL
 # Allow members of group sudo to execute any command
 %sudo   ALL=(ALL:ALL) ALL
-nama kalian ALL=(ALL:ALL) ALL
+Username kalian ALL=(ALL:ALL) ALL
 # See sudoers(5) for more information on "@include" directives:
 ```
 Save mengunakan perintah `CTRL+x+y` (enter)
