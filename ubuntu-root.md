@@ -20,7 +20,9 @@ termux-setup-storage
 pkg update
 pkg install x11-repo
 pkg install root-repo
+pkg install pulseaudio
 pkg install proot-distro
+pkg install termux-x11-nightly
 ```
 
 Penginstalan dan login Ubuntu: 
